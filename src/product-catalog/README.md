@@ -13,7 +13,8 @@ To build the service binary, run:
 
 ```sh
 export PRODUCT_CATALOG_PORT=<any-unique-port>
-go build -o product-catalog . 
+go build -o product-catalog .
+./product-catalog
 ```
 
 ## Docker Build
